@@ -29,7 +29,7 @@ public class CheckingAccount implements HasMenu {
         while (running) {
             System.out.println(menu());
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -51,7 +51,7 @@ public class CheckingAccount implements HasMenu {
         }
     }
 
-    // Getters and Setters
+
     public double getBalance() {
         return balance;
     }
